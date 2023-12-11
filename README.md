@@ -4,7 +4,7 @@ A React Native project showcasing BottomTabNavigator and React Native Elements.
 
 ## Overview
 
-This React Native project demonstrates the use of card components, a FlatList, and an ImageBackground to create an engaging mobile application.
+This React Native project demonstrates the use of different navigators, including Bottom Tab Navigator, Drawer Navigator and Top Tab Navigator.
 
 ## Features
 
