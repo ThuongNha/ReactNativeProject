@@ -4,12 +4,14 @@ import { StatusBar } from 'react-native';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import WrapperContainer from './src/components/layouts/WrapperContainer';
 import BottomTabNavigator from './src/navigations/BottomTabNavigator';
+import TopTabNavigator from './src/navigations/TopTabNavigator';
+import DrawerNavigator from './src/navigations/DrawerNavigator';
 
 StatusBar.setBackgroundColor('black');
 StatusBar.setBarStyle('light-content');
 
-//Creating a transparent background to the navigation container for the ImageBackground
-const MyTheme =  {
+//Transparent background to the navigation container for the ImageBackground
+const MyTheme = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
@@ -18,14 +20,16 @@ const MyTheme =  {
   },
 }
 
-const App: React.FC = ()  => { 
+const App: React.FC = () => {
 
   return (
-    <NavigationContainer theme={MyTheme} >
-      <WrapperContainer>
-          <BottomTabNavigator />
-      </WrapperContainer>
-    </NavigationContainer>
+      <NavigationContainer theme={MyTheme} >
+        <WrapperContainer>
+          {/* <BottomTabNavigator /> */}
+          {/* <TopTabNavigator /> */}
+          <DrawerNavigator/>
+        </WrapperContainer>
+      </NavigationContainer>
   );
 }
 

@@ -57,7 +57,7 @@ const RestaurantCard: React.FC<CardContainerProps> = ({ cards }) => {
 
 const styles = StyleSheet.create({
     container: {
-        marginTop: 40,
+        marginTop: 20,
         marginBottom: 20,
         width: 300,
         height: 300,
