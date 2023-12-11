@@ -9,11 +9,15 @@ This React Native project demonstrates the use of card components, a FlatList, a
 ## Features
 
 - **Bottom Tab Navigator:** Implements a Bottom Tab Navigator for easy navigation between different sections of the app.
+- **Drawer Navigator:** Implements a Drawer Navigator for a seamless and accessible navigation experience.
+- **Top Tab Navigator:** Demonstrates the use of Top Tab Navigator for organizing content in a tabbed interface.
 - **React Native Elements:** Utilizes the power of React Native Elements for enhanced UI components, icons, and styling.throughout the app.
 
 ## Preview
 
 ![Screenshot 2](src/images/screenshots/Screenshot2.PNG)
+![Screenshot 2](src/images/screenshots/Screenshot3.PNG)
+![Screenshot 2](src/images/screenshots/Screenshot4.PNG)
 
 ## Getting Started
 

@@ -26,8 +26,8 @@ const App: React.FC = () => {
       <NavigationContainer theme={MyTheme} >
         <WrapperContainer>
           {/* <BottomTabNavigator /> */}
-          {/* <TopTabNavigator /> */}
-          <DrawerNavigator/>
+          <TopTabNavigator />
+          {/* <DrawerNavigator/> */}
         </WrapperContainer>
       </NavigationContainer>
   );
