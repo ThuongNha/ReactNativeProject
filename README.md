@@ -14,10 +14,17 @@ This React Native project demonstrates the use of card components, a FlatList, a
 - **React Native Elements:** Utilizes the power of React Native Elements for enhanced UI components, icons, and styling.throughout the app.
 
 ## Preview
+### Bottom Tab Navigator
 
 ![Screenshot 2](src/images/screenshots/Screenshot2.PNG)
-![Screenshot 2](src/images/screenshots/Screenshot3.PNG)
-![Screenshot 2](src/images/screenshots/Screenshot4.PNG)
+
+### Drawer Navigator
+
+![Screenshot 3](src/images/screenshots/Screenshot3.PNG)
+
+### Top Tab Navigator
+
+![Screenshot 4](src/images/screenshots/Screenshot4.PNG)
 
 ## Getting Started
 
