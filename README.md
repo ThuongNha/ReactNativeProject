@@ -2,7 +2,7 @@
 
 ## Overview
 
-This React Native project demonstrates the use of different React Native Components.
+This React Native project demonstrates the use of different React Native Components and Navigators.
 
 
 ## Preview
